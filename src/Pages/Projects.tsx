@@ -8,16 +8,11 @@ import Button from '@mui/material/Button';
 import Typography from '@mui/material/Typography';
 import { styled } from '@mui/material/styles';
 import Dialog from '@mui/material/Dialog';
-import { StyledEngineProvider } from '@mui/material/styles';
-import { motion } from "framer-motion"
 import Grid from '@mui/material/Grid';
-import ReactPlayer from 'react-player'
 import {ButtonGroup, DialogContent} from "@mui/material";
 import imageUrl from '../images/wordle.jpg';
 import portfolioUrl from '../images/portfolio.png'
 import video from "../images/Wordle.mp4"
-
-
 
 export default function Projects() {
     const [openVideo, setOpenVideo] = useState(false);

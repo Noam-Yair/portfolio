@@ -1,10 +1,5 @@
 import './Page.css';
-import {SiJava} from 'react-icons/si'
 import React from "react";
-import List from '@mui/joy/List';
-import ListDivider from '@mui/joy/ListDivider';
-import ListItem from '@mui/joy/ListItem';
-import ListItemButton from '@mui/joy/ListItemButton';
 
 function About() {
     return (
