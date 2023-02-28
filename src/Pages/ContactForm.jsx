@@ -60,9 +60,9 @@ const ContactForm = () => {
                 <div className='col-12 text-center'>
                     <div className='contactForm'>
                         <form id='contact-form' onSubmit={handleSubmit(onSubmit)} noValidate>
-        <Grid container rowSpacing={1} columnSpacing={{ xs: 1, sm: 2, md: 3 }}>
-            <Grid item xs={1} sm={2} md={3}/>
-            <Grid item xs={5} sm={4} md={3} sx={{height: "30vh", display: "block", width: "50vw"}}>
+        <Grid container rowSpacing={1} columnSpacing={{ xs: 0, sm: 2, md: 3 }}>
+            <Grid item xs={0} sm={2} md={3}/>
+            <Grid item xs={6} sm={4} md={3} sx={{height: "30vh", display: "block", width: "50vw"}}>
                 {/*<form id='contact-form' onSubmit={handleSubmit(onSubmit)} noValidate>*/}
                 <br/>
                 <input
@@ -112,7 +112,7 @@ const ContactForm = () => {
                 )}
                 {/*</form>*/}
             </Grid>
-            <Grid item xs={5} sm={4} md={3} sx={{height: "30vh", width: "50vw"}}>
+            <Grid item xs={6} sm={4} md={3} sx={{height: "30vh", width: "50vw"}}>
                     <textarea
                         rows={3}
                         name='message'
@@ -125,7 +125,7 @@ const ContactForm = () => {
                     ></textarea>
                 {errors.message && <span className='errorMessage'>Please enter a message</span>}
             </Grid>
-            <Grid item xs={1} sm={2} md={3}/>
+            <Grid item xs={0} sm={2} md={3}/>
         </Grid>
                             <Button className='submit-btn' type='submit' variant="contained">Submit</Button>
                         </form>

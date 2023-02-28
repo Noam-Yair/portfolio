@@ -10,8 +10,8 @@ function Home() {
             <div className="content">
                 <h1 className="reveal" style={{fontSize: "10vh"}}>Hi there</h1>
                 <div style={{lineHeight: "1.5vh"}}>
-                    <h3 style={{fontSize: "5vh"}}>My name is <div style={{color: "#c47b88", display: "inline"}}>Noam Yair.</div></h3>
-                    <h3 style={{fontSize: "5vh"}}> I'm a Backend / Full-Stack developer</h3>
+                    <h3 className="name">My name is <div style={{color: "#c47b88", display: "inline"}}>Noam Yair.</div></h3>
+                    <h3 className="name"> I'm a Backend / Full-Stack developer</h3>
                 </div>
             </div>
             </section>
