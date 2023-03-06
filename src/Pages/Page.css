@@ -21,6 +21,12 @@ h1.projects{
     margin: 0 0 -55px 0;
     font-size: 6vw;
 }
+@media screen and (max-width: 500px) {
+    h1.projects{
+        margin: 0 0 -40px 0;
+    }
+}
+
 
 /*@media screen and (max-width: 900px) {*/
 /*    section,*/
@@ -140,7 +146,6 @@ h1.aboutMe, .tech{
     -webkit-box-align: center;
     -ms-flex-align: center;
     align-items: center;
-    position: relative;
     border-radius: 4px;
     border: 2px solid;
     height: 6vh;
