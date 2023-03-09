@@ -18,12 +18,12 @@ section div {
 }
 
 h1.projects{
-    margin: 0 0 -55px 0;
+    margin: 0 0 1vh 0;
     font-size: 6vw;
 }
 @media screen and (max-width: 500px) {
     h1.projects{
-        margin: 0 0 -40px 0;
+        margin: 0 0 3vh 0;
     }
 }
 
@@ -54,6 +54,16 @@ h2.aboutMe{
     position: absolute;
     font-size: 8vw;
 }
+@media only screen and (max-width: 600px) {
+    h3.aboutMe {
+        font-size: 4vw;
+    }
+
+    .aboutMe {
+        width: 75%
+    }
+}
+
 
 @media only screen and (max-width: 700px) {
     h3.aboutMe{
@@ -69,7 +79,19 @@ h2.aboutMe{
 }
 @media only screen and (max-width: 700px) {
     h2.aboutMe {
-        top: 110vh;
+        top: 101vh;
+        width: 75%;
+        text-align: left;
+        left: 3vw;
+        position: absolute;
+        font-size: 9vw;
+    }
+}
+
+@media only screen and (max-width: 600px) {
+
+    h2.aboutMe {
+        top: 104vh;
         width: 75%;
         text-align: left;
         left: 3vw;
@@ -78,22 +100,10 @@ h2.aboutMe{
     }
 }
 
-@media only screen and (max-width: 600px) {
-    h3.aboutMe{
-        font-size: 4vw;
-    }
-
-    .aboutMe{
-        width:75%
-    }
+@media only screen and (max-width: 450px) {
 
     h2.aboutMe {
-        top: 110vh;
-        width: 75%;
-        text-align: left;
-        left: 3vw;
-        position: absolute;
-        font-size: 10vw;
+        top: 108vh;
     }
 }
 
@@ -117,8 +127,6 @@ h2.contact {
         font-size: 6.5vw;
     }
 }
-
-
 
 h1.aboutMe, .tech{
     text-align: center;
